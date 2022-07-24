@@ -1,7 +1,7 @@
 rootProject.name = "pandaspigot"
 
-this.setupSubproject("pandaspigot-server", "PandaSpigot-Server")
-this.setupSubproject("pandaspigot-api", "PandaSpigot-API")
+this.setupSubproject("cimeymc-server", "CimeyMC-Server")
+this.setupSubproject("cimeymc-api", "CimeyMC-API")
 
 fun setupSubproject(name: String, dir: String) {
     include(":$name")
